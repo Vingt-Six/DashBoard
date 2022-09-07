@@ -1,12 +1,12 @@
 .avatar {
     background-color: hsl(235, 46%, 20%);
     border-radius: 20px;
-    height: 450px;
-    width: 250px;
+    height: 520px;
+    width: 260px;
 }
 
 .topCard {
-    height: 320px;
+    height: 390px;
     background-color: hsl(246, 80%, 60%);
     border-radius: 20px;
     padding-left: 10%;
@@ -23,20 +23,31 @@
 
 .avatar h1 {
     font-weight: 300;
-    font-size: 40px;
+    font-size: 45px;
     margin-top: -5%;
 }
 
-.avatar p {
+.report {
     color: hsl(235, 45%, 61%);
 }
 
 .days {
     margin-left: 10%;
     width: fit-content;
+    color: hsl(235, 45%, 61%);
 }
 
 .days:hover {
     cursor: pointer;
     color: white;
+}
+
+.daysClick {
+    margin-left: 10%;
+    width: fit-content;
+    color: white;
+}
+
+.daysClick:hover {
+    cursor: pointer;
 }

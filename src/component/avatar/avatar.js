@@ -1,19 +1,19 @@
 import './avatar.css';
-import Jeremy from '../../img/image-jeremy.png'
+import Jeremy from './img/image-jeremy.png'
 
-function Avatar() {
+function Avatar(props) {
     return(
         <div className='avatar'>
             <div className='topCard'>
                 <div className='image'>
                     <img src={Jeremy} alt="" />
                 </div>
-                <p>Report for</p>
+                <p className='report'>Report for</p>
                 <h1>Jeremy Robson</h1>
             </div>
-            <p className='days'>Daily</p>
-            <p className='days'>Weekly</p>
-            <p className='days'>Monthly</p>
+            <p className={props.d == 'daily' ? 'daysClick' : 'days'} onClick={props.day}>Daily</p>
+            <p className={props.d == 'weekly' ? 'daysClick' : 'days'} onClick={props.week}>Weekly</p>
+            <p className={props.d == 'monthly' ? 'daysClick' : 'days'} onClick={props.month}>Monthly</p>
         </div>
     )
 }

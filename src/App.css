@@ -7,7 +7,16 @@
 
 .displayAll {
   display: flex;
+  justify-content: space-between;
   height: 100%;
   align-items: center;
   margin-inline: 10%;
+}
+
+.allCards {
+  height: 520px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 40px;
 }

@@ -1,0 +1,109 @@
+.bgwork {
+    background-color: hsl(15, 100%, 70%);
+    overflow: hidden;
+    height: 240px;
+    width: 260px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.bgplay {
+    background-color: hsl(195, 74%, 62%);
+    height: 240px;
+    width: 260px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.bgstudy {
+    background-color: hsl(348, 100%, 68%);
+    overflow: hidden;
+    height: 240px;
+    width: 260px;
+    border-radius: 15px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+}
+
+.bgexercise {
+    background-color: hsl(145, 58%, 55%);
+    overflow: hidden;
+    height: 240px;
+    width: 260px;
+    border-radius: 15px;
+}
+
+.bgsocial {
+    background-color: hsl(264, 64%, 52%);
+    overflow: hidden;
+    height: 240px;
+    width: 260px;
+    border-radius: 15px;
+}
+
+.bgsoft {
+    background-color: hsl(43, 84%, 65%);
+    overflow: hidden;
+    height: 240px;
+    width: 260px;
+    border-radius: 15px;
+    margin-right: 0px;
+}
+
+/* .allCards {
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+} */
+
+.infoCard {
+    height: 100%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding-inline: 10%;
+}
+
+.infoCard p {
+    margin: 0;
+}
+
+.svgIcon {
+    height: 40px;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    justify-content: end;
+}
+
+.svgIcon img{
+    height: 70px;
+    margin-top: -5px;
+    margin-right: 20px;
+}
+
+.titre {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13%;
+    font-size: 18px;
+}
+
+.titre span {
+    margin-top: -3%;
+    font-weight: 600;
+}
+
+.heures {
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 10%;
+}
+
+.lastheures {
+    padding-top: 8px;
+    color: hsl(235, 45%, 61%);
+}

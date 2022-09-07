@@ -4,101 +4,125 @@
     "timeframes": {
       "daily": {
         "current": 5,
-        "previous": 7
+        "previous": 7,
+        "name": "Day"
       },
       "weekly": {
         "current": 32,
-        "previous": 36
+        "previous": 36,
+        "name": "Week"
       },
       "monthly": {
         "current": 103,
-        "previous": 128
+        "previous": 128,
+        "name": "Month"
       }
-    }
+    },
+    "id": 1 
   },
   {
     "title": "Play",
     "timeframes": {
       "daily": {
         "current": 1,
-        "previous": 2
+        "previous": 2,
+        "name": "Day"
       },
       "weekly": {
         "current": 10,
-        "previous": 8
+        "previous": 8,
+        "name": "Week"
       },
       "monthly": {
         "current": 23,
-        "previous": 29
+        "previous": 29,
+        "name": "Month"
       }
-    }
+    },
+    "id": 2
   },
   {
     "title": "Study",
     "timeframes": {
       "daily": {
         "current": 0,
-        "previous": 1
+        "previous": 1,
+        "name": "Day"
       },
       "weekly": {
         "current": 4,
-        "previous": 7
+        "previous": 7,
+        "name": "Week"
       },
       "monthly": {
         "current": 13,
-        "previous": 19
+        "previous": 19,
+        "name": "Month"
       }
-    }
+    },
+    "id": 3
   },
   {
     "title": "Exercise",
     "timeframes": {
       "daily": {
         "current": 1,
-        "previous": 1
+        "previous": 1,
+        "name": "Day"
       },
       "weekly": {
         "current": 4,
-        "previous": 5
+        "previous": 5,
+        "name": "Week"
       },
       "monthly": {
         "current": 11,
-        "previous": 18
+        "previous": 18,
+        "name": "Month"
       }
-    }
+    },
+    "id": 4
   },
   {
     "title": "Social",
     "timeframes": {
       "daily": {
         "current": 1,
-        "previous": 3
+        "previous": 3,
+        "name": "Day"
       },
       "weekly": {
         "current": 5,
-        "previous": 10
+        "previous": 10,
+        "name": "Week"
       },
       "monthly": {
         "current": 21,
-        "previous": 23
+        "previous": 23,
+        "name": "Month"
       }
-    }
+    },
+    "id": 5
   },
   {
     "title": "Self Care",
     "timeframes": {
       "daily": {
         "current": 0,
-        "previous": 1
+        "previous": 1,
+        "name": "Day"
       },
       "weekly": {
         "current": 2,
-        "previous": 2
+        "previous": 2,
+        "name": "Week"
       },
       "monthly": {
         "current": 7,
-        "previous": 11
+        "previous": 11,
+        "name": "Month"
       }
-    }
+    },
+    "id": 6 
   }
 ]
